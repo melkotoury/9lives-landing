@@ -131,13 +131,13 @@
 			<div class="form-group">
 							<div class="radio radio-adv">
 								<label for="input-radio-1">
-									<input class="access-hide" id="input-radio-1" name="input-radio" type="radio" name="male">Male
+									<input class="access-hide" id="input-radio-1" name="input-radio" type="radio" name="gender">Male
 									<span class="circle"></span><span class="circle-check"></span>
 								</label>
 							</div>
 							<div class="radio radio-adv">
 								<label for="input-radio-2">
-									<input class="access-hide" id="input-radio-2" name="input-radio" type="radio" name="female">Female
+									<input class="access-hide" id="input-radio-2" name="input-radio" type="radio" name="gender">Female
 									<span class="circle"></span><span class="circle-check"></span>
 								</label>
 							</div>
@@ -157,13 +157,22 @@
     </div>
 <!-- Submit or Cancel -->
     	<div class="form-group-btn">
-    	<button class="btn waves-attach waves-button" type="button">Cancel Button</button>
-						<button class="btn btn-brand-accent waves-attach waves-button waves-light" type="submit">Submit Button</button>
+    	<button class="btn waves-attach waves-button" type="button">Clear</button>
+						<button class="btn btn-brand-accent waves-attach waves-button waves-light" type="submit">Register</button>
 					</div>
   
   </fieldset>
 </form>
-
+<div style="text-align:center">
+	<?php 
+	if (isset($_GET['msg'])) {
+		$message=$_GET['msg'];
+		if($message==1){
+			echo "<span style='color:green'> Your entry has been successfully stored</span>";
+		}
+	}
+	?>
+</div>
 
 
 
