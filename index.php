@@ -153,6 +153,7 @@
           <option>15-20</option>
           <option>21-25</option>
           <option>26-30</option>
+          <option>30-40</option>
         </select>
       </div>
     </div>
@@ -182,7 +183,12 @@
 	</div>
 	<footer class="footer">
 		<div class="container">
+		<div class="row">
+		<div class="col-md-6">
 			<p>Copyrights &copy; 2015, Ninelives All Right Reserved </p>
+			</div>
+			<div class="col-md-6">Developed By <a href="http://rootcave.com" target="_blank">Root Cave</a></div>
+			</div>
 		</div>
 	</footer>
 	<div class="fbtn-container">
