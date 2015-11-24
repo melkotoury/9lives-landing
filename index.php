@@ -211,7 +211,9 @@
 		<div class="col-md-6">
 			<p>Copyrights &copy; 2015, Ninelives All Right Reserved </p>
 			</div>
-			<div class="col-md-6">Developed By <a href="http://rootcave.com" target="_blank">Root Cave</a></div>
+			<div class="col-md-6">
+			<p>Developed By <a href="http://rootcave.com" target="_blank">Root Cave</a>
+			</p></div>
 			</div>
 		</div>
 	</footer>
@@ -219,9 +221,9 @@
 		<div class="fbtn-inner">
 			<a class="fbtn fbtn-brand-accent fbtn-lg" data-toggle="dropdown"><span class="fbtn-text">Links</span><span class="fbtn-ori icon">add</span><span class="fbtn-sub icon">close</span></a>
 			<div class="fbtn-dropdown">
-				<a class="fbtn" href="https://plus.google.com" target="_blank"><span class="fbtn-text">Visit Ninelives Google Plus Account</span><span class="fa fa-google-plus"></span></a>
-				<a class="fbtn fbtn-blue" href="https://twitter.com/" target="_blank"><span class="fbtn-text">Follow Ninelives on Twitter</span><span class="fa fa-twitter"></span></a>
-				<a class="fbtn fbtn-alt" href="http://www.facebook.com.au/" target="_blank"><span class="fbtn-text">Visit Ninelives Facebook Fan Page</span><span class="fa fa-facebook"></span></a>
+				<a class="fbtn" href="https://plus.google.com" target="_blank"><span class="fbtn-text">Visit 9livesprints Google Plus Account</span><span class="fa fa-google-plus"></span></a>
+				<a class="fbtn fbtn-blue" href="https://twitter.com/" target="_blank"><span class="fbtn-text">Follow 9livesprints on Twitter</span><span class="fa fa-twitter"></span></a>
+				<a class="fbtn fbtn-alt" href="http://www.facebook.com.au/" target="_blank"><span class="fbtn-text">Visit 9livesprints Facebook Fan Page</span><span class="fa fa-facebook"></span></a>
 			</div>
 		</div>
 	</div>
