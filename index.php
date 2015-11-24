@@ -53,13 +53,12 @@
 			
 		</ul>
 		<div class="header-affix-hide pull-left" data-offset-top="108" data-spy="affix">
-			<a class="header-logo margin-left-no" href="index.html">Ninelives</a>
+			<a class="header-logo margin-left-no" href="index.html"></a>
 		</div>
 		<div class="header-affix pull-left" data-offset-top="108" data-spy="affix">
-			<span class="header-logo margin-left-no">Registration Form</span>
-			<span class="header-text margin-left-no">
-				<i class="icon margin-right">chevron_right</i>Ninelives
-			</span>
+			<span class="header-logo margin-left-no"><img src="img/banner.png" style="width:160px  " style="height:180px" style="display: block"style="margin-left: auto"
+   style="margin-right: auto" > </span>
+			
 		</div>
 		
 	</header>
@@ -68,7 +67,8 @@
 	<div class="content">
 		<div class="content-heading">
 			<div class="container">
-				<h1 class="heading">Ninelives Registration Form</h1>
+				<h1 class="heading"><img src="img/banner.png" style="width:240px  " style="height:180px" style="display: block"style="margin-left: auto"
+   style="margin-right: auto" ></h1>
 			</div>
 		</div>
 		<div class="container">
@@ -87,6 +87,7 @@
 									<label class="floating-label" for="float-text-name">Name</label>
 									<input class="form-control" id="float-text-name" type="text" name="name">
 								</div>
+
 							</div>
 						</div>
 
