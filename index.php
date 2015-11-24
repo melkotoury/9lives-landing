@@ -85,7 +85,7 @@
 							<div class="row">
 								<div class="col-lg-6 col-sm-8">
 									<label class="floating-label" for="float-text-name">Name</label>
-									<input class="form-control" id="float-text-name" type="text" name="name">
+									<input class="form-control" id="float-text-name" type="text" name="name" required>
 								</div>
 
 							</div>
@@ -97,7 +97,7 @@
 							<div class="row">
 								<div class="col-lg-6 col-sm-8">
 									<label class="floating-label" for="float-text-mobile">Mobile</label>
-									<input class="form-control" id="float-text-mobile" type="number" name="phone">
+									<input class="form-control" id="float-text-mobile" type="number" name="phone" required>
 								</div>
 							</div>
 						</div>
@@ -108,7 +108,7 @@
 							<div class="row">
 								<div class="col-lg-6 col-sm-8">
 									<label class="floating-label" for="float-text-email">Email</label>
-									<input class="form-control" id="float-text-email" type="email" name="email">
+									<input class="form-control" id="float-text-email" type="email" name="email" required>
 								</div>
 							</div>
 						</div>
@@ -121,7 +121,7 @@
 <div class="form-group form-group-label">
 							<div class="row">
 								<div class="col-lg-6 col-sm-8">
-									<label class="floating-label" for="float-text-discount-code">Discount Code
+									<label class="floating-label" for="float-text-discount-code">Discount Code (Optional)
 									</label>
 									<input class="form-control" id="float-text-discount-code" type="text" name="discount-code">
 								</div>
@@ -130,6 +130,7 @@
 
     <!-- Gender -->
 			<div class="form-group">
+			Gender (Optional) <br>
 							<div class="radio radio-adv">
 								<label for="input-radio-1">
 									<input class="access-hide" id="input-radio-1" name="input-radio" type="radio" name="gender">Male
@@ -146,7 +147,7 @@
 						</div>
    <!-- Age Group -->
     <div class="form-group">
-      <label for="select111" class="col-lg-2 control-label">Age</label>
+      <label for="select111" class="col-lg-2 control-label">Age (Optional)</label>
 
       <div class="col-lg-10">
         <select id="select111" class="form-control">
