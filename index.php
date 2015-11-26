@@ -156,13 +156,13 @@
 			Gender (Optional) <br>
 							<div class="radio radio-adv">
 								<label for="input-radio-1">
-									<input class="access-hide" id="input-radio-1" name="input-radio" type="radio" name="gender">Male
+									<input class="access-hide" id="input-radio-1" value="male" type="radio" name="gender">Male
 									<span class="circle"></span><span class="circle-check"></span>
 								</label>
 							</div>
 							<div class="radio radio-adv">
 								<label for="input-radio-2">
-									<input class="access-hide" id="input-radio-2" name="input-radio" type="radio" name="gender">Female
+									<input class="access-hide" id="input-radio-2" value="female" type="radio" name="gender">Female
 									<span class="circle"></span><span class="circle-check"></span>
 								</label>
 							</div>

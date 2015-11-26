@@ -3,6 +3,8 @@
 $con =mysqli_connect("localhost","root","root","rcnl_registration")
 or die("Failed to Connect to DB Server" .mysqli_connect_error());
 
+if(isset($_POST['gender'])){
+}
 $name=mysqli_real_escape_string($con,$_POST['name']);
 $mobile=mysqli_real_escape_string($con,$_POST['mobile']);
 $email=mysqli_real_escape_string($con,$_POST['email']);
