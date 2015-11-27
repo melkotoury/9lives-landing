@@ -1,6 +1,6 @@
 <?php
 
-$con =mysqli_connect("localhost","root","root","rcnl_registration")
+$con =mysqli_connect("localhost","root","","rcnl_registration")
 or die("Failed to Connect to DB Server" .mysqli_connect_error());
 //gender
 if(isset($_POST['gender'])){
@@ -45,7 +45,8 @@ if(isset($_POST['age-group'])){
 
 
 $name=mysqli_real_escape_string($con,$_POST['name']);
-$mobile=mysqli_real_escape_string($con,$_POST['mobile']);
+$mobile="";
+$mobile.=mysqli_real_escape_string($con,$_POST['phone']);
 $email=mysqli_real_escape_string($con,$_POST['email']);
 $discount_code=mysqli_real_escape_string($con,$_POST['discount-code']);
 //$gender=mysqli_real_escape_string($con,$_POST['gender']);
