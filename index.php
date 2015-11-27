@@ -100,7 +100,7 @@
 
 
 
-<form class="form-horizontal" action="register.php" method="post" name="form1">
+<form id="myForm" class="form-horizontal" action="register.php" method="post" name="form1">
   <fieldset>
     <legend>Ninelives Registration Form</legend>
 <!-- Name -->
@@ -185,7 +185,7 @@
     </div>
 <!-- Submit or Cancel -->
     	<div class="form-group-btn">
-    	<button class="btn waves-attach waves-button" type="button">Clear</button>
+    	<button class="btn waves-attach waves-button" type="button" onclick="myFunction()">Clear</button>
 						<button class="btn btn-brand-accent waves-attach waves-button waves-light" type="submit">Register</button>
 					</div>
   
@@ -229,7 +229,11 @@
 			</div>
 		</div>
 	</div>
-
+	<script>
+		function myFunction() {
+			document.getElementById("myForm").reset();
+		}
+	</script>
 	<!-- js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/base.min.js"></script>
