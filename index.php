@@ -173,11 +173,13 @@
       <label for="select111" class="col-lg-2 control-label">Age (Optional)</label>
 
       <div class="col-lg-10">
-        <select id="select111" class="form-control">
-          <option>15-20</option>
-          <option>21-25</option>
-          <option>26-30</option>
-          <option>30-40</option>
+        <select id="select111" class="form-control" name="age-group" onchange="window.getStates()">
+			<option value="0" name="age" disabled>Select Your Age Group</option>
+			<option value="1" name="age">15-20</option>
+          <option value="2" name="age">21-25</option>
+          <option value="3" name="age">26-30</option>
+          <option value="4"name="age">30-40</option>
+			<option value="5"name="age">50+</option>
         </select>
       </div>
     </div>
