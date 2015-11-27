@@ -1,6 +1,6 @@
 <?php
 
-$con =mysqli_connect("localhost","root","","rcnl_registration")
+$con =mysqli_connect("localhost","root","root","rcnl_registration")
 or die("Failed to Connect to DB Server" .mysqli_connect_error());
 //gender
 if(isset($_POST['gender'])){
