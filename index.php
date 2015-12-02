@@ -36,6 +36,7 @@
 
 
 
+	<link href="css/bootstrap-material-design.min.css" rel="stylesheet">
 
 
 
@@ -99,7 +100,8 @@
 
 
 
-
+<div class="row"><!--Start Row -->
+	<div class="col-md-8"><!--Registration Column -->
 <form id="myForm" class="form-horizontal" action="register.php" method="post" name="form1">
   <fieldset>
     <legend>Ninelives Registration Form</legend>
@@ -191,6 +193,16 @@
   
   </fieldset>
 </form>
+	</div><!--End Registration Column -->
+	<div class="col-md-4"><!--Start Message Column -->
+		<div class="jumbotron">
+			<h1>Welcome To 9livesprints</h1>
+
+			<p>You have the passion to design your own t-shirt, mugs, giveaways or buiness card, but maybe you don't know how or where to start? Ninelives is here for you! Find your favorite photo , design , image or even create your own design and upload it to one of our many templates and live the artistic experience of producing the product of your passion. You can even add your own text to craft a message for the whole world to see. Start from scratch to make your own or personalize an existing design found in our marketplace. With numerous styles, sizes, and colors, your choices are almost endless! Customize it for yourself, or create one as a gift.</p>
+
+		</div>
+	</div><!--End Message Column -->
+</div><!--End Row -->
 <div style="text-align:center">
 	<?php 
 	if (isset($_GET['msg'])) {
@@ -236,6 +248,7 @@
 	</script>
 	<!-- js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/material.min.js"></script>
 	<script src="js/base.min.js"></script>
 
 	<!-- js for this project -->
