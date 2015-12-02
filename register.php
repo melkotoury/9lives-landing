@@ -57,7 +57,8 @@ VALUES('$name','$mobile','$email','$discount_code','$gender','$age')";
  if (!mysqli_query($con,$query)) {
 echo "Error ".mysqli_error($con); 
 }else{
-	header("location:index.php?msg=1");
+     header("location:success.php");
+	//header("location:index.php?msg=1");
 }
 
 //age group

@@ -223,9 +223,9 @@
 		<div class="fbtn-inner">
 			<a class="fbtn fbtn-brand-accent fbtn-lg" data-toggle="dropdown"><span class="fbtn-text">Links</span><span class="fbtn-ori icon">add</span><span class="fbtn-sub icon">close</span></a>
 			<div class="fbtn-dropdown">
-				<a class="fbtn" href="https://plus.google.com" target="_blank"><span class="fbtn-text">Visit 9livesprints Google Plus Account</span><span class="fa fa-google-plus"></span></a>
-				<a class="fbtn fbtn-blue" href="https://twitter.com/" target="_blank"><span class="fbtn-text">Follow 9livesprints on Twitter</span><span class="fa fa-twitter"></span></a>
-				<a class="fbtn fbtn-alt" href="http://www.facebook.com.au/" target="_blank"><span class="fbtn-text">Visit 9livesprints Facebook Fan Page</span><span class="fa fa-facebook"></span></a>
+				<a class="fbtn" href="https://instagram.com/9livesprints" target="_blank"><span class="fbtn-text">Visit 9livesprints Instagram Account</span><span class="fa fa-instagram"></span></a>
+				<a class="fbtn fbtn-blue" href="https://twitter.com/9livesprints" target="_blank"><span class="fbtn-text">Follow 9livesprints on Twitter</span><span class="fa fa-twitter"></span></a>
+				<a class="fbtn fbtn-alt" href="http://www.facebook.com/9livesprints" target="_blank"><span class="fbtn-text">Visit 9livesprints Facebook Fan Page</span><span class="fa fa-facebook"></span></a>
 			</div>
 		</div>
 	</div>
